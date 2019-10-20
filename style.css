@@ -1,7 +1,29 @@
 body {
     background-color: lightgray;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
 #firstButton {
     cursor: pointer;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+    padding: 10px;
+    margin: 30px 10px 0px 10px;
+    color: whitesmoke;
+}
+
+#result {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 0px 0px 10px;;
+    background-color: darkgray;
+    color: red;
 }
